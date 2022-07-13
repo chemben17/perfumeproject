@@ -1,0 +1,93 @@
+/* The default body setting ( return the argin to zero and assign a new font size to override the default ) */
+body {
+    font-size: 14px;
+    color: black;
+    
+}
+
+div.container {
+    background-color: hsl(30, 38%, 92%);
+      position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    width: 90vw;
+    height: 80vh;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+div.content {
+    width: 17.5rem;
+    flex-shrink: 0;
+    height: 23.75rem;
+    box-sizing: inherit;
+    background-color:hsl(0, 0%, 100%);
+    position: relative;
+    top: -2.5px;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+    padding-bottom: 12px;
+    color:hsl(228, 12%, 48%);
+    /* color:hsl(158, 36%, 37%); */
+    /* color:hsl(212, 21%, 14%); */
+}
+
+.name {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    padding-bottom: 12px;
+
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:hsl(228, 12%, 48%);
+    padding-bottom: 15px;
+}
+
+.new-price {
+    font-family: 'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+    font-weight: 900;
+    font-size: 30px;
+    
+
+}
+.price {
+    font-size: 12px;
+    position: relative;
+    left: 30px ;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.cart-logo {
+    transform: translateY(25px);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    padding: 13px;
+    border-radius: 8px;
+    transition: all 2s linear 1s;
+}
+
+.cart-logo:hover {
+    font-size: 18px ;
+    background-color:  hsla(158, 82%, 13%, 0.987);
+
+}
+
+
+
+
